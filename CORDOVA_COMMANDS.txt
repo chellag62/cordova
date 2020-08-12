@@ -1,0 +1,19 @@
+CORDOVA COMMANDS
+================
+
+cordova create notificationdemo --copy-from=D:\HTML\ApacheCordovaInActionCode\code_copy\c4\dialog_demo
+
+cd notificationdemo
+
+cordova platforms add android
+
+cordova plugin add cordova-plugin-dialogs
+cordova plugin add cordova-plugin-camera
+cordova plugin add cordova-plugin-contacts
+
+cordova emulate or cordova run
+
+Debug:
+chrome://inspect/#devices
+
+ frameworks: Ionic, jQuery Mobile, Ratchet, and Kendo UI.
